@@ -10,13 +10,13 @@ implicit-external=true
 implicit-typing=true
 
 [library]
-source-dir = "source"
+source-dir = "poc"
 include-dir = "objects"
 
 [[executable]]
-name = "imau-fdm.x"
-source-dir = "source"
-main = "main.f90"
+name = "imau-fdm-x"
+source-dir = "poc"
+main = "test-struct.f90"
 
 [dependencies]
 toml-f = { git = "https://github.com/toml-f/toml-f", tag = "v0.4.2" }
